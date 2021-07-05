@@ -11,9 +11,14 @@
 	font-size: 30px;	
   }
   .tit-p{
+    
     font-size: 18px;
   }
   .tit-a{
     margin-top: 20vh; 
+  }
+  .sBox1 h1{
+   text-align: center;
+   padding: 0; 
   }
 }
