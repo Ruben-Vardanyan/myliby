@@ -1,8 +1,8 @@
 /* Phone responsive 180- 768px*/
 @media only screen and (min-device-width : 180px) and (max-device-width :  767px) and (orientation : portrait) {
   header{
-  	padding-top: 70px;
-  	height: 100vh;
+  	padding-top: 10vh;
+  	height: 80vh;
   }
   .div1{
     width: 90vw;
@@ -14,6 +14,6 @@
     font-size: 18px;
   }
   .tit-a{
-    margin-top: 150px; 
+    margin-top: 20vh; 
   }
 }

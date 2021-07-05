@@ -16,7 +16,7 @@ header{
 	background-attachment: fixed;
 	background-repeat:no-repeat;  
 	box-sizing: border-box;
-	padding-top: 100px;
+	padding-top: 13vh;
 	border-bottom:3px solid lightblue;
 	overflow: hidden;
 	display: block;
@@ -56,7 +56,7 @@ header{
 	height: 25px;
 }
 .tit-a{
-	margin: 200px auto 0 auto;
+	margin: 25vh auto 0 auto;
 	width: 170px;
 	height: 50px;
 	color:lightblue;
@@ -85,6 +85,7 @@ header{
 	
 }
 .section1 h1{
+	margin: 2vh 0;
 	text-align: center;
 	font-size: 28px;
 
@@ -103,9 +104,16 @@ header{
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+
+}
+@media only screen and (max-width:1260px){
+	.container{
+		width: 95%; 
+		transition: 0.2s ease-in-out;
+	}
 }
 .box{
-	margin: 20px 0;
+	margin: 20px 5px;
 	width: 320px ;
 	height: 380px;
 	background: rgba(37 ,37 ,37,1);
