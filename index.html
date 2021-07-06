@@ -147,7 +147,20 @@
 
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-	<script src="https://gist.github.com/feluxe/301d3c625a81276811134cc3e91bd6b0.js"></script>
 	 <script type="text/javascript" src="js/app.js"></script>
+	 <script>
+	 	function setDocHeight() {
+			document.documentElement.style.setProperty('--vh', `${window.innerHeight/100}px`);
+			};
+
+			window.addEventListener('resize', function () {
+			setDocHeight();
+			});
+			window.addEventListener('orientationchange', function () {
+			setDocHeight();
+			});
+
+			setDocHeight();
+	 </script>	
 </body>
 </html>
