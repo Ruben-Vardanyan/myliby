@@ -1,0 +1,38 @@
+/* Ipad and Ipad Pro responsive 768-1366px*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1366px) and (orientation : portrait){
+  header{
+  	
+  	height: 70vh;
+  }
+  .tit-p{
+    font-size: 20px;
+  }
+  /*.tit-a{
+    margin-top: 250px; 
+  }*/
+  .container{
+	width: 100%; 
+	
+   }
+   .section1{
+   	min-height: 50vh; 
+   }
+   /*trans*/
+  .trans{
+  	display: none;
+  }
+  .section2{
+   border-top: 3px solid #1b1b1b;
+    border-bottom: 3px solid #1b1b1b;
+  }
+
+  .sBox1 p{
+    font-size: 22px;
+   
+  }
+  .sBox1  li{
+    font-size: 21px;
+    margin: 0;
+    padding: 0; 
+  }
+}
