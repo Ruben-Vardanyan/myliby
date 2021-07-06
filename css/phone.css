@@ -5,8 +5,9 @@
   height: 80vh;
   background: url("img/main.jpg");
   background-position:top center;
-  /*background-attachment: fixed;*/
-  background-repeat:no-repeat;  
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size: auto;   
   box-sizing: border-box;
   padding-top: 13vh;
   border-bottom:3px solid lightblue;
